@@ -22,7 +22,7 @@ The goal of this task was to build a simple "Task Completed" screen using Jetpac
 ## Screenshot
 
 <p align="center">
-  <img src="screenshot/screenshot_20260616_030048.pn" alt="Task Manager App Screenshot" width="300"/>
+  <img src="screenshot/screenshot_20260616_030048.png" alt="Task Manager App Screenshot" width="300"/>
 </p>
 
 
