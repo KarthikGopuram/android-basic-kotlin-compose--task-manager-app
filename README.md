@@ -21,7 +21,10 @@ The goal of this task was to build a simple "Task Completed" screen using Jetpac
 
 ## Screenshot
 
-![Task Manager Output](https://github.com/KarthikGopuram/android-basic-kotlin-compose--task-manager-app/blob/main/screenshot/screenshot_20260616_030048.png)
+<p align="center">
+  <img src="screenshot/screenshot_20260616_030048.pn" alt="Task Manager App Screenshot" width="300"/>
+</p>
+
 
 ---
 
