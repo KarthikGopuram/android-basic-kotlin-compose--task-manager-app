@@ -93,10 +93,19 @@ This helped me understand composable hierarchy and parent-child layout relations
 
 ## Note
 
-My implementation uses a different structure compared to Google's reference solution.
+My implementation differs from Google's reference solution in structure.
 
-* Google's solution organizes the composables differently.
-* My implementation separates image and text into different composable functions and combines them through a parent layout.
-* Despite the implementation differences, both approaches produce the same final UI output.
+Google's solution places the image and text directly inside a single composable (`TaskCompletedScreen`), while my implementation separates the UI into reusable composable functions for the image and text and combines them through a parent layout.
 
-This exercise helped me better understand Compose layouts, modifiers, alignment, arrangement, and composable hierarchy.
+I also used `Modifier.fillMaxSize()`, whereas Google's implementation uses `fillMaxWidth()` and `fillMaxHeight()` to occupy the available screen space.
+
+Although the code structure is different, both implementations rely on the same Jetpack Compose layout principles:
+
+* `Column`
+* `horizontalAlignment = Alignment.CenterHorizontally`
+* `verticalArrangement = Arrangement.Center`
+
+As a result, both approaches produce the same final UI output.
+
+This exercise helped me gain a better understanding of Compose layouts, modifiers, alignment, arrangement, parent-child relationships, and composable hierarchy.
+
